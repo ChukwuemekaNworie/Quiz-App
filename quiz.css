@@ -1,0 +1,86 @@
+.options-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 70%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    border-radius: 2.5rem;
+  }
+  
+  .options-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .options-text {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  
+  .correct {
+    background-color: #8fdba1;
+    color: white;
+  }
+  
+  .correct .options-text {
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: #881622;
+    color: white;
+  }
+  
+  .incorrect .options-text {
+    color: white;
+  }
+  
+  #next-btn {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    background-color: #56a5eb;
+    width: 14rem;
+    margin-left: 25%;
+    border-radius: 0.5rem;
+  }
+  
+  #next-btn h3 {
+    color: white;
+    align-items: center;
+    margin-left: 35px;
+    padding-top: 5px;
+  }
+  
+  #next-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  /* ----------------Head section-----------*/
+  
+  #hod {
+    display: flex;
+    margin-left: 150px;
+  }
+  
+  .hd-prefix {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .hod-main-text {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  #hod-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
